@@ -10,7 +10,6 @@ Solwash DT relies on specialized hardware compute architectures to run multi-var
 
 ### Verifying AMD GPU Telemetry Allocation
 When our predictive analytics module ingestion pipeline fires, execution maps directly onto the available AMD tensor blocks. You can view our core computational logic execution environment steps in `backend/amd_inference_engine.py`.
-
 ```bash
 # Terminal command inside our container environment to verify execution loops on AMD hardware:
 $ rocm-smi --showgputype --showmeminfo vram
@@ -23,7 +22,7 @@ GPU[0] : VRAM Total Usage: 4125 MB / 196608 MB (2.09%)
 > *High-Performance Solar Fleet Intelligence & Automated Dispatch Platform for O&M Providers.*
 
 🚀 **[Live Production URL](https://solwashdt-hackathon.web.app/)**  
-🎬 **[Video Walkthrough & Pitch](ADD_YOUR_YOUTUBE_OR_LOOM_LINK_HERE)**
+🎬 **[Video Walkthrough & Pitch](https://drive.google.com/file/d/15SGnBuukPF3unFKFeqR7zR0sqDarGpaA/view?usp=drive_link)**
 
 ---
 
